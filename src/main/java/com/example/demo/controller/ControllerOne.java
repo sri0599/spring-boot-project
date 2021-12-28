@@ -17,6 +17,7 @@ public class ControllerOne {
 	public Integer sum(@PathVariable Integer one, @PathVariable Integer two)
 	{
 		System.out.println(one+two);
+		System.out.println(one+two);
 		return one + two;
 		
 	}
